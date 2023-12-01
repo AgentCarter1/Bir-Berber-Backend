@@ -8,7 +8,22 @@ export class User {
   id: string;
 
   @Column()
-  fieldName: string;
+  name: string;
+
+  @Column()
+  surname: string;
+
+  @Column()
+  username: string;
+  
+  @Column()
+  email: string;
+
+  @Column()
+  password: string;
+
+  @Column()
+  phoneNumber: string;
 
   // Daha fazla sütun ekleyebilirsiniz
 }
